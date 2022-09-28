@@ -90,6 +90,8 @@ header {
     background-attachment: fixed;
 }
 
+
+
 /* about */
 
 #about-text {
@@ -104,12 +106,43 @@ header {
     text-align: justify;
 }
 
+/* Caves Site Page */
+
+#cave-sites {
+    width: 100vw;
+    height: 80vh;
+    background-color: grey;
+}
+
+#cave-sites h2 {
+    text-align: center;
+}
+
+.cave-site-one {
+    background-color: red;
+}
+
+.cave-site-two {
+    background-color: blue;
+}
+
+.cave-site-three {
+    background-color: green;
+}
+
+
+
 /* footer */
 
 footer {
-    height: 100px;
+    height: 150px;
     background-color: #D6CDA4;
     margin-top: 50px;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 20px;
 }
 
 
