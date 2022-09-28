@@ -89,6 +89,19 @@ header {
     background-size: cover;
 }
 
+/* about */
+
+#about-text {
+    text-align: center;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#about-text p {
+    text-align: justify;
+}
 
 /* footer */
 
