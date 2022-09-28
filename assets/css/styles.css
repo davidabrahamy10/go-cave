@@ -66,6 +66,29 @@ header {
     background-color: #FFD8A9;
 }
 
+/* hero image */
+
+#hero-outer {
+    width: 100%;
+    position: relative;
+}
+
+#cover-text {
+    position: absolute;
+    bottom: 190px;
+    left: 400px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+#hero-image {
+    height: 1000px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    background-size: cover;
+}
+
 
 /* footer */
 
