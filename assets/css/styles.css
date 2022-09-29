@@ -100,6 +100,7 @@ header {
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #about-text p {
@@ -110,27 +111,33 @@ header {
 
 #cave-sites {
     width: 100vw;
-    height: 80vh;
-    background-color: grey;
+    height: 135vh;
+    background-color: #FDEEDC;
 }
 
 #cave-sites h2 {
     text-align: center;
+    padding: 100px;
 }
 
 .cave-site-one {
-    background-color: red;
+    /* background-color: red; */
     overflow: hidden;
+    position: relative;
+    margin-left: 20%;
 }
 
 .cave-site-two {
-    background-color: blue;
+    /* background-color: blue; */
     overflow: hidden;
+    position: relative;
 }
 
 .cave-site-three {
-    background-color: green;
+    /* background-color: green; */
     overflow: hidden;
+    position: relative;
+    margin-left: 20%;
 }
 
 .cave-img {
@@ -150,9 +157,14 @@ header {
 }
 
 .cave-site-text {
-    width: 50%;
-    margin-top: 200px;
+    width: 30%;
+    /* margin-top: auto; */
     display: inline-block;
+    text-align: center;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
 }
 
 /* Contact form */
@@ -162,7 +174,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 1100px;
     position: relative;
 }
 
@@ -207,7 +219,8 @@ input[type=text], select, textarea {
 footer {
     height: 150px;
     background-color: #D6CDA4;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
 }
 
 footer h2 {
