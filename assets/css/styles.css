@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -13,8 +13,8 @@ body {
 
 /* headings and logo */
 
-h1 h2 {
-    font-family: 'Open Sans', sans-serif;
+h1, h2 {
+    font-family: 'Fredoka One', sans-serif;
     color: #1C6758;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -22,10 +22,10 @@ h1 h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 350%;
     margin-left: 30px;
     color: #1C6758;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
 }
 
 #menu {
@@ -97,7 +97,7 @@ header {
 #about-text {
     text-align: center;
     height: auto;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -105,6 +105,10 @@ header {
 
 #about-text p {
     text-align: justify;
+}
+
+#about-text h2 {
+    margin-bottom: 30px;
 }
 
 /* Caves Site Page */
@@ -124,21 +128,21 @@ header {
 .cave-site-one {
     /* background-color: red; */
     overflow: hidden;
-    position: relative;
-    margin-left: 20%;
+    /* position: relative; */
+    /* margin-left: 20%; */
 }
 
 .cave-site-two {
     /* background-color: blue; */
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 
 .cave-site-three {
     /* background-color: green; */
     overflow: hidden;
-    position: relative;
-    margin-left: 20%;
+    /* position: relative; */
+    /* margin-left: 20%; */
 }
 
 .cave-img {
@@ -148,25 +152,43 @@ header {
 }
 
 .cave-img-one, .cave-img-three {
-    float: right;
-    margin-right: 20%;
+    /* float: right;
+    margin-right: 30%; */
 }
 
 .cave-img-two {
-    float: left;
-    margin-left: 20%;
+    /* float: left;
+    margin-left: 30%; */
 }
 
 .cave-site-text {
     width: 500px;
-    /* margin-top: auto; */
     display: inline-block;
     text-align: center;
     padding: 100px;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    text-align: justify;
+    text-align: justify; */
+}
+
+.cave-site-two-text {
+    /* float: right; */
+}
+
+/* .float-left {
+    float: left;
+    margin-left: 15%;
+} */
+
+.cave-site-one-text, .cave-site-three-text, .cave-img-two {
+    float: left;
+    margin-left: 20%;
+}
+
+.cave-site-two-text, .cave-img-one, .cave-img-three {
+    float: right;
+    margin-right: 20%;
 }
 
 /* Contact form */
@@ -206,7 +228,7 @@ input[type=text], select, textarea {
   
   .contact-container {
     width: 25%;
-    background-color: rgba(241, 166, 97, 0.5);
+    background-color: rgba(255, 216, 169, 0.5);
     padding: 20px;
     position: absolute;
     left: 50%;
@@ -214,6 +236,32 @@ input[type=text], select, textarea {
     transform: translate(-50%, -50%);
   }
 
+
+/* Google map in footer*/
+
+#visit-us-main {
+    padding-bottom: 50px;
+    background-color: #fdeedc;
+}
+
+.visit-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.gmap_canvas iframe {
+    height: 200px;
+    width: 100%;
+    
+}
 
 
 /* footer */
@@ -246,4 +294,9 @@ footer h2 {
     padding: 0 50px 0;
     color: #3a3a3a;
 
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    
 }
