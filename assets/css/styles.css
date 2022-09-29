@@ -120,15 +120,85 @@ header {
 
 .cave-site-one {
     background-color: red;
+    overflow: hidden;
 }
 
 .cave-site-two {
     background-color: blue;
+    overflow: hidden;
 }
 
 .cave-site-three {
     background-color: green;
+    overflow: hidden;
 }
+
+.cave-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.cave-img-one, .cave-img-three {
+    float: right;
+    margin-right: 20%;
+}
+
+.cave-img-two {
+    float: left;
+    margin-left: 20%;
+}
+
+.cave-site-text {
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
+}
+
+/* Contact form */
+
+#main-contact {
+    background-image: url(../images/pexels-m-venter-1659437.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #1C6758;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3D8361;
+  }
+  
+  .contact-container {
+    width: 25%;
+    background-color: rgba(241, 166, 97, 0.5);
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 
 
