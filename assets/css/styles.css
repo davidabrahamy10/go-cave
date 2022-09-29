@@ -76,7 +76,7 @@ header {
 #cover-text {
     position: absolute;
     bottom: 190px;
-    left: 400px;
+    left: 15%;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -296,7 +296,39 @@ footer h2 {
 
 }
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For smaller screen sizes from 768px wide and down */
+@media screen and (max-width: 753px) {
+    header {
+        height: 160px;
+    }
+
+    #menu-outer {
+        float: left;
+        margin-left: 30px;
+    }
+
+    footer {
+        height: 300px;
+    }
     
+    #about-text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    header {
+        height: 240px;
+    }
+
+    #menu-outer, #logo {
+        float: left;
+        margin-left: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 1999px) {
+
 }
