@@ -46,6 +46,7 @@ h1, h2 {
     margin-right: 30px;
     display: inline-block;
     color: #1C6758;
+    font-weight: bold;
 }
 
 #menu a {
@@ -113,7 +114,6 @@ header {
     height: auto;
     background-color: #FDEEDC;
     padding-bottom: 50px;
-    overflow: hidden;
 }
 
 #cave-sites h2 {
@@ -262,7 +262,7 @@ footer h2 {
 
 /* Media queries */
 
-@media screen and (max-width: 753px) {
+@media screen and (max-width: 774px) {
     header {
         height: 160px;
     }
@@ -338,7 +338,6 @@ footer h2 {
         padding: 0;
     }
 }
-
 
 @media screen and (max-width: 550px) {
     
