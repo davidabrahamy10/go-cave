@@ -11,7 +11,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* Logo and Navbar */
 
 h1, h2 {
     font-family: 'Fredoka One', sans-serif;
@@ -66,7 +66,7 @@ header {
     background-color: #FFD8A9;
 }
 
-/* hero image */
+/* Home page hero image */
 
 #hero-outer {
     width: 100%;
@@ -81,7 +81,6 @@ header {
     font-size: 1.5rem;
 }
 
-
 #hero-image {
     height: 1000px;
     width: 100%;
@@ -89,10 +88,6 @@ header {
     background-size: cover;
     background-attachment: fixed;
 }
-
-
-
-/* about */
 
 #about-text {
     text-align: center;
@@ -118,6 +113,7 @@ header {
     height: auto;
     background-color: #FDEEDC;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 #cave-sites h2 {
@@ -126,23 +122,15 @@ header {
 }
 
 .cave-site-one {
-    /* background-color: red; */
     overflow: hidden;
-    /* position: relative; */
-    /* margin-left: 20%; */
 }
 
 .cave-site-two {
-    /* background-color: blue; */
     overflow: hidden;
-    /* position: relative; */
 }
 
 .cave-site-three {
-    /* background-color: green; */
     overflow: hidden;
-    /* position: relative; */
-    /* margin-left: 20%; */
 }
 
 .cave-img {
@@ -246,7 +234,6 @@ input[type=text], select, textarea {
 footer {
     height: auto;
     background-color: #D6CDA4;
-    /* margin-top: 50px; */
     padding: 20px 0 20px;
 }
 
@@ -273,7 +260,8 @@ footer h2 {
 
 }
 
-/* For smaller screen sizes from 768px wide and down */
+/* Media queries */
+
 @media screen and (max-width: 753px) {
     header {
         height: 160px;
@@ -301,7 +289,6 @@ footer h2 {
     }
 
 }
-
 
 @media screen and (max-width: 2000px) {
     
@@ -351,6 +338,7 @@ footer h2 {
         padding: 0;
     }
 }
+
 
 @media screen and (max-width: 550px) {
     
