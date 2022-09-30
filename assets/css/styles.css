@@ -151,35 +151,12 @@ header {
     border-radius: 50%;
 }
 
-.cave-img-one, .cave-img-three {
-    /* float: right;
-    margin-right: 30%; */
-}
-
-.cave-img-two {
-    /* float: left;
-    margin-left: 30%; */
-}
-
 .cave-site-text {
     width: 500px;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     padding: 100px;
-    /* position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    text-align: justify; */
 }
-
-.cave-site-two-text {
-    /* float: right; */
-}
-
-/* .float-left {
-    float: left;
-    margin-left: 15%;
-} */
 
 .cave-site-one-text, .cave-site-three-text, .cave-img-two {
     float: left;
@@ -227,7 +204,7 @@ input[type=text], select, textarea {
   }
   
   .contact-container {
-    width: 25%;
+    width: 500px;
     background-color: rgba(255, 216, 169, 0.5);
     padding: 20px;
     position: absolute;
@@ -267,10 +244,10 @@ input[type=text], select, textarea {
 /* footer */
 
 footer {
-    height: 150px;
+    height: auto;
     background-color: #D6CDA4;
     /* margin-top: 50px; */
-    padding-top: 20px;
+    padding: 20px 0 20px;
 }
 
 footer h2 {
@@ -307,9 +284,6 @@ footer h2 {
         margin-left: 30px;
     }
 
-    footer {
-        height: 300px;
-    }
     
     #about-text {
         width: 90%;
@@ -329,6 +303,73 @@ footer h2 {
 }
 
 
-@media screen and (max-width: 1999px) {
+@media screen and (max-width: 2000px) {
+    
+    .cave-site-one-text, .cave-site-three-text, .cave-img-two {
+        float: left;
+        margin-left: 15%;
+    }
+    
+    .cave-site-two-text, .cave-img-one, .cave-img-three {
+        float: right;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1714px) {
+    
+    .cave-site-one-text, .cave-site-three-text, .cave-img-two {
+        float: left;
+        margin-left: 10%;
+    }
+    
+    .cave-site-two-text, .cave-img-one, .cave-img-three {
+        float: right;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .cave-site-one-text, .cave-site-three-text, .cave-img-two {
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .cave-site-two-text, .cave-img-one, .cave-img-three {
+        float: right;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1332px) {
+    
+    .cave-site-one-text, .cave-site-three-text, .cave-img-two, .cave-site-two-text, .cave-img-one, .cave-img-three {
+        float: none;
+        display: table;
+        margin: 80px auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .cave-site-text {
+        width: 85%;
+    }
+
+    .cave-img {
+        aspect-ratio: 1 / 1;
+        width: 95vw;
+        height: 95vw;
+    }
+    
+    .contact-container {
+        width: 85%;
+    }
+
+    .gmap_canvas {
+        width: 85%;
+    }
 
 }
