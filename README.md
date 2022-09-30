@@ -1,108 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Go Cave!
 
-Welcome David Abraham,
+Go Cave is a site for cave exploring enthusiasts around the world who would like to experience caving with other like-minded people.
+Go Cave is located in New York, USA, but the site allows anyone around the world to partake in the exploration.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](assets/readme-images/responsive-design-image.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Cave Sites and Contact page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](assets/readme-images/header.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The hero section image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - This section introduces the user to Go Cave with an eye catching image to grab their attention.
 
-A blue button should appear to click: _Make Public_,
+![Hero Section](assets/readme-images/hero-section.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __About Caving and Go Cave Section__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The caving and go cave section will give a brief explanation to caving and what Go Cave aims to do.
 
-To log into the Heroku toolbelt CLI:
+![About Caving and Go Cave Section](assets/readme-images/about-caving-and-go-cave.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The Footer__ 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - The footer section includes links to the relevant social media sites for Go Cave. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-------
+![Footer](assets/readme-images/footer.png)
 
-## Release History
+- __Cave Sites__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The cave sites page will allow the users to see upcoming cave destinations.
+  - Users can also chose to join the meetups by clicking on the join us link provided in each destination description.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Cave Sites](assets/readme-images/cave-sites.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __The Contact page__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - This page will allow the user to choose which destination they are interested in and to get in contact with Go Cave for more information. The user will be asked to submit their full name and email address.
+  - The users can also see where Go Cave HQ is located using the Google maps feature.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Contact](assets/readme-images/contact-form.png)
+![Google Maps](assets/readme-images/google-maps.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Features Left to Implement
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Code back-end part of the contact form.
+- Create a gallery page of previous explorations.
+- Messaging board for previous and current cave explorers.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Testing 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- I have clicked and made sure that all of the links in the footer works as intended. The links open in new tabs.
+- The website is responsive and works on all devices and browsers.
+- Clicking the "Send" button on the contact form takes information and sends it to the server.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Validator Testing 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Lighthouse](assets/readme-images/lighthouse-testing-results.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Unfixed Bugs
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- No bugs known.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Deployment
 
-------
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-## FAQ about the uptime script
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**Why have you added this script?**
+The live link can be found here - https://davidabrahamy10.github.io/go-cave/ 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Credits 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Content 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Some of the text for the Home page and Cave Sites was generated through AI using keywords. [Rytr](https://rytr.me/) 
+- Instructions on how to implement form validation and style the form on the Contact page was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Some of the code for the Google maps location finder was taken from [embedgooglemap](https://www.embedgooglemap.net/)
+- The code in the footer was taken from the Love Running example project in the CodeInstitute program [CodeInstitute](https://codeinstitute.net/se/)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Media
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The photos used on the home, cave sites, and contact page are from https://www.pexels.com/search/cave/
+Photo by M Venter: https://www.pexels.com/photo/photo-of-man-sitting-on-a-cave-1659437/
+Photo by Francisco Davids: https://www.pexels.com/photo/divers-exploring-a-cave-underwater-10519070/
+Photo by Quang Nguyen Vinh: https://www.pexels.com/photo/people-exploring-inside-a-cave-6870953/
+Photo by Sangeet Rao: https://www.pexels.com/photo/people-inside-a-cave-7261488/
+Photo by Timo Volz: https://www.pexels.com/photo/silhouette-of-a-man-standing-inside-a-cave-5443127/
